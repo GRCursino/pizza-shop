@@ -1,5 +1,5 @@
-import { Outlet } from "react-router-dom";
-import { Pizza } from "lucide-react";
+import { Pizza } from 'lucide-react'
+import { Outlet } from 'react-router-dom'
 
 // O Outlet é pra demonstrar onde será mostraddo o conteúdo da Página,
 
@@ -20,5 +20,5 @@ export function AuthLayout() {
         <Outlet />
       </div>
     </div>
-  );
+  )
 }

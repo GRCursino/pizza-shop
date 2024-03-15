@@ -1,5 +1,6 @@
-import { Header } from "@/components/Header";
-import { Outlet } from "react-router-dom";
+import { Outlet } from 'react-router-dom'
+
+import { Header } from '@/components/Header'
 
 // O Outlet é pra demonstrar onde será mostraddo o conteúdo da Página,
 
@@ -12,5 +13,5 @@ export function AppLayout() {
         <Outlet />
       </div>
     </div>
-  );
+  )
 }
